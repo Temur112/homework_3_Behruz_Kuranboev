@@ -18,7 +18,7 @@ class Welcome extends StatelessWidget {
               children: [
                 SizedBox(height: 16.0),
                 Text(
-                  'Welcome to the Registration',
+                  'Welcome to the Application!',
                   style: TextStyle(
                     fontSize: 24.0,
                     fontWeight: FontWeight.bold,

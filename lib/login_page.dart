@@ -9,6 +9,10 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black38,
+        title: const Text("Registration Screen"),
+      ),
       backgroundColor: Colors.amber,
       body: SafeArea(
         child: Column(

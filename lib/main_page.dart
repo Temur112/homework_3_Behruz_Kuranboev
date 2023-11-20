@@ -11,10 +11,10 @@ class MainPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              'assets/images/image.png',
-              width: 200,
-              height: 200,
+            Icon(
+              Icons.account_circle,
+              color: const Color(0xFFF27C38),
+              size: 200,
             ),
             SizedBox(height: 200),
             ElevatedButton(
